@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universidad Tecnológica Santa Catarina</title>
+    <link rel="stylesheet" href="estilos/estilos.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
+
     
+    <nav>
+        <ul id="navegadorCentrado">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="secciones/educacionIncluyente.html">Educación Incluyente</a></li>
+            <li><a href="secciones/quienesSomos.html">Quiénes somos</a></li>
+            <li><a href="secciones/ofertaEducativa.html">Oferta Educativa</a></li>
+            <li><a href="secciones/vidaEstudiantil.html">Vida Estudiantil</a></li>
+            <li><a href="secciones/utscVirtual.html">UTSC Virtual</a></li>
+            <li><a href="secciones/vinculacion.html">Vinculación</a></li>
+        </ul>
+    </nav
+   
+
+    <section>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="recursos/regresoClases.jpg" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="recursos/calendarioVirtual.jpg" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="recursos/avisoPagos.jpg" width="100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </section>
+
+    <main>
+        <section id="informacion">
+            <div>
+                <div class="row">
+                    <div id="modeloInclusivo" class="col-6">
+                        <h4 class="tituloInclusion">Modelo de Inclusión Educativa y Laboral</h4>
+                        <p>
+                            La Universidad Tecnológica Santa Catarina, a través de la Coordinación de
+                            Inclusión Educativa, gestiona y coordina todos los apoyos que se proporcionan de
+                            manera integral a los alumnos con discapacidad durante el periodo de su estancia en esta
+                            Universidad, tomando en cuenta las necesidades específicas de cada uno de ellos.</p>
+                          
+                            <button type="button" class="btn btn-primary">Conoce más</button>
+                         
+                    </div>
+                    <div class="col-6">
+                        <img id="inclusionEducativa.jpg" src="recursos/inclusionEducativa.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>

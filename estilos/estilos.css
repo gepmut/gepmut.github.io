@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#navegadorCentrado{
+    text-align: center;
+    
+}
+
+#navegadorCentrado li{
+    display: inline;
+}
+
+nav ul li a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+#logoUTSC{
+    width: 60px ;
+    height: 40px;
+}
+
+#regresoClases{
+    width: 100%;
+}
+.row{
+    width: 100%;
+}
+.row > div{
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+#modeloInclusivo{
+    text-align: justify;
+}
+
+.tituloInclusion{
+    line-height: 90px;
+}
+
